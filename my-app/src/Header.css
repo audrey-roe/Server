@@ -1,0 +1,148 @@
+/* Header.css */
+
+.nav-bar {
+    background-color: #3e4c5b;
+    /* Update the background color to a slightly lighter color */
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar,
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #445566;
+    padding: 10px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.search-icon {
+    margin-right: 5px;
+    font-size: 15px
+}
+
+.search-input {
+    border: none;
+    background: transparent;
+    font-style: italic;
+    padding: 5px;
+    outline: none;
+    color: rgb(237, 237, 237);
+    flex: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* Adjustments for mobile devices */
+    .nav-bar {
+        justify-content: space-between;
+        display: flex;
+        padding: 10px 20px;
+        /* Increase padding for better spacing on mobile */
+        width: 100%;
+    }
+
+    .search-bar {
+        margin-top: 0px;
+        /* Increase margin for better separation on mobile */
+    }
+
+    .search-input {
+        width: 100%;
+        /* Make the input field take up full width on mobile */
+    }
+}
+
+
+.profile-dropdown,
+
+.profile-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile-icon {
+    margin-right: 10px;
+}
+.down-arrow-icon{
+    margin-right: 15px;
+}
+
+.username {
+    margin-right: 10px;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover {
+    background-color: #f2f2f2;
+}
+
+.notification,
+
+.notification-icon,
+
+.notification-button,
+.logout-button {
+    background: transparent;
+    border: none;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 3px;
+    font-size: 15px; /* Adjust the size as desired */
+    margin-left: 3px;
+}
+
+
+.logout {
+    margin-right: 10px;
+}
+
+.logout-icon {
+    margin-right: 5px;
+}
+  
